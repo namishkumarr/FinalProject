@@ -43,23 +43,5 @@
         "resume_score": 40,
         "resume_link": "https://content.wepik.com/statics/194472962/preview-page0.jpg",
         "email": "albert.m69@gmail.com"
-    },
-    {
-        "name": "Namish Kumar",
-        "email": "namish3535@gmail.com",
-        "resume_score": 62,
-        "image": "/data/avatar.png",
-        "state": "Karnataka",
-        "country": "India",
-        "resume_link": "C:/Users/namis/cutshort-ui/backend/App/Uploaded_Resumes/36ebc42b-8f1f-434a-bf69-7b6950656f18_NewResume.pdf"
-    },
-    {
-        "name": "Namish Kumar",
-        "email": "namish3535@gmail.com",
-        "resume_score": 62,
-        "image": "/data/avatar.png",
-        "state": "Karnataka",
-        "country": "India",
-        "resume_link": "C:/Users/namis/cutshort-ui/backend/App/Uploaded_Resumes/e9e756d6-37b4-48b0-a1c1-478c19644965_NamishResume.pdf"
     }
 ]

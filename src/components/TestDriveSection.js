@@ -256,7 +256,7 @@ function TestDriveSection() {
             </div>
             <div className="view-text-div"><div onClick={openModal} className="view-text">
             View Resume
-            </div><div><a className="view-text" href="http://192.168.151.145:8501/" target="_blank" rel="noopener noreferrer">View Analysis</a></div></div></div></>
+            </div><div><a className="view-text" href="http://192.168.20.145:8501/" target="_blank" rel="noopener noreferrer">View Analysis</a></div></div></div></>
             )}
           </div>
         </div>
