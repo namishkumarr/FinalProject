@@ -1,0 +1,45 @@
+.recommended-companies {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 100px;
+    max-width: 300px;
+    z-index:2000;
+  }
+  
+  .title {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333333;
+    margin-bottom: 15px;
+  }
+  
+  .company-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .company-item {
+    margin-bottom: 20px;
+  }
+  
+  .company-link {
+    font-size: 16px;
+    font-weight: bold;
+    color: #5851d3;
+    text-decoration: none;
+  }
+  
+  .company-link:hover {
+    text-decoration: underline;
+  }
+  
+  .company-description {
+    font-size: 14px;
+    color: #555555;
+    margin-top: 5px;
+  }
+  

@@ -1,0 +1,112 @@
+[
+  {
+    "title": "Lead Software Engineer",
+    "company": "CallHub",
+    "location": "Bangalore",
+    "experience": "6yrs+",
+    "salary": "₹30L - ₹45L / yr",
+    "skills": ["Python", "Django", "PostgreSQL", "MySQL"],
+    "description": "CallHub provides cloud-based communication software for nonprofits, political parties, advocacy organizations, and businesses.",
+    "logo": "https://cdn.brandfetch.io/id0SXz9oXn/w/400/h/400/theme/dark/icon.jpeg?c=1bfwsmEH20zzEfSNTed",
+    "reco_field": "Web Development"
+  },
+  {
+    "title": "Senior Software Engineer - Data Platforms",
+    "company": "REConnect Energy",
+    "location": "Bangalore",
+    "experience": "5 - 7 yrs",
+    "salary": "Up to ₹30L / yr (Varies)",
+    "skills": ["Python", "Flask", "Linux/Unix", "NoSQL Databases"],
+    "description": "Work at the intersection of Energy, Weather & Climate Sciences and Artificial Intelligence.",
+    "logo": "https://cdn.brandfetch.io/idL1hcRpzz/w/972/h/686/theme/dark/logo.png?c=1bfwsmEH20zzEfSNTed",
+    "reco_field": "Data Science"
+  },
+  {
+    "title": "Frontend Developer",
+    "company": "TechWorks",
+    "location": "Mumbai",
+    "experience": "3 - 5 yrs",
+    "salary": "₹15L - ₹25L / yr",
+    "skills": ["React", "JavaScript", "CSS", "HTML"],
+    "description": "TechWorks is looking for passionate frontend developers to create stunning user experiences for our clients.",
+    "logo": "https://cdn.brandfetch.io/idO2TMP61B/w/240/h/240/theme/dark/icon.jpeg?c=1bfwsmEH20zzEfSNTed",
+    "reco_field": "Web Development"
+  },
+  {
+    "title": "Backend Engineer",
+    "company": "DataCrunch",
+    "location": "Hyderabad",
+    "experience": "4 - 6 yrs",
+    "salary": "₹18L - ₹30L / yr",
+    "skills": ["Node.js", "Express", "MongoDB", "Redis"],
+    "description": "Join DataCrunch to work on high-scale backend systems for data processing and analytics.",
+    "logo": "https://cdn.brandfetch.io/idet5yfmMG/theme/dark/logo.svg?c=1bfwsmEH20zzEfSNTed",
+    "reco_field": "Web Development"
+  },
+  {
+    "title": "Full Stack Developer",
+    "company": "Innovative Labs",
+    "location": "Pune",
+    "experience": "2 - 4 yrs",
+    "salary": "₹12L - ₹20L / yr",
+    "skills": ["React", "Node.js", "GraphQL", "Docker"],
+    "description": "Innovative Labs is building cutting-edge solutions and needs versatile full stack developers to join the team.",
+    "logo": "https://cdn.brandfetch.io/idx6Xkymbd/w/288/h/288/theme/dark/icon.jpeg?c=1bfwsmEH20zzEfSNTed",
+    "reco_field": "Web Development"
+  },
+  {
+    "title": "Data Scientist",
+    "company": "Insight AI",
+    "location": "Bangalore",
+    "experience": "3 - 6 yrs",
+    "salary": "₹20L - ₹35L / yr",
+    "skills": ["Python", "Machine Learning", "NLP", "TensorFlow"],
+    "description": "Work on AI-driven insights for business growth at Insight AI and make a difference with data.",
+    "logo": "https://cdn.brandfetch.io/idVlZeLkRJ/w/484/h/484/theme/dark/icon.jpeg?c=1bfwsmEH20zzEfSNTed",
+    "reco_field": "Data Science"
+  },
+  {
+    "title": "DevOps Engineer",
+    "company": "CloudOps",
+    "location": "Chennai",
+    "experience": "4 - 7 yrs",
+    "salary": "₹25L - ₹40L / yr",
+    "skills": ["AWS", "Kubernetes", "CI/CD", "Terraform"],
+    "description": "CloudOps is hiring experienced DevOps engineers to manage and scale cloud-based infrastructure for clients.",
+    "logo": "https://cdn.brandfetch.io/idxpC3Qb60/w/400/h/400/theme/dark/icon.jpeg?c=1bfwsmEH20zzEfSNTed",
+    "reco_field": "Web Development"
+  },
+  {
+    "title": "Mobile App Developer",
+    "company": "AppGenius",
+    "location": "Mumbai",
+    "experience": "2 - 5 yrs",
+    "salary": "₹10L - ₹22L / yr",
+    "skills": ["React Native", "iOS", "Android", "JavaScript"],
+    "description": "Join AppGenius to create innovative mobile applications that redefine user experiences.",
+    "logo": "https://cdn.brandfetch.io/idSEZrvFc-/w/123/h/114/theme/dark/logo.png?c=1bfwsmEH20zzEfSNTed",
+    "reco_field": "Android Development"
+  },
+  {
+    "title": "Product Manager",
+    "company": "VisionTech",
+    "location": "Chennai",
+    "experience": "5 - 8 yrs",
+    "salary": "₹35L - ₹50L / yr",
+    "skills": ["Agile", "Scrum", "Product Roadmap", "JIRA"],
+    "description": "VisionTech is looking for strategic thinkers to lead product development and drive business growth.",
+    "logo": "https://cdn.brandfetch.io/idDYtmuDne/w/400/h/400/theme/dark/icon.jpeg?c=1bfwsmEH20zzEfSNTed",
+    "reco_field": "UI-UX Development"
+  },
+  {
+    "title": "Cybersecurity Analyst",
+    "company": "SecureNet",
+    "location": "Chennai",
+    "experience": "3 - 5 yrs",
+    "salary": "₹18L - ₹28L / yr",
+    "skills": ["Network Security", "SIEM", "Penetration Testing", "Incident Response"],
+    "description": "Be a part of SecureNet's mission to secure the digital world by detecting and mitigating cybersecurity threats.",
+    "logo": "https://cdn.brandfetch.io/securenettech.com/fallback/lettermark/theme/dark/h/256/w/256/icon?c=1bfwsmEH20zzEfSNTed",
+    "reco_field": "Data Science"
+  }
+]

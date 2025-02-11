@@ -1,0 +1,132 @@
+/* Filter container styles */
+.filters {
+    background-color: white;
+    border-radius: 5px;
+    padding: 40px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin:0px;
+    width:70%;
+    height:70%;
+    
+  }
+  
+  .filters h3 {
+    padding: 10px;
+  }
+  
+  .filters ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .filters li {
+    cursor: pointer;
+    padding: 8px 10px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .filters li:hover {
+    background-color: #f0f0f0;
+  }
+  
+  .aside {
+    background-color: rgb(175, 175, 175);
+  }
+  
+  /* Overlay styles */
+  .overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    
+  }
+  
+  .overlay-content {
+    background-color: white;
+    border-radius: 8px;
+    padding: 20px 30px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    position: relative;
+  }
+  
+  .overlay-content h2 {
+    margin: 0 0 10px 0;
+    font-size: 24px;
+  }
+
+  .clear-btn {
+    background-color: #ddd;
+    color: #666;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: not-allowed;
+  }
+  
+  .clear-btn.active {
+    background-color: #ff4d4d;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .clear-btn:hover.active {
+    background-color: #e60000;
+  }
+  
+  .location-overlay {
+    margin-top: 10px;
+  }
+  
+  .search-input {
+    width: 100%;
+    padding: 8px 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+  }
+  
+  .suggestions {
+    list-style: none;
+    padding: 0;
+    max-height: 150px;
+    overflow-y: auto;
+    border-top: 1px solid #ccc;
+  }
+  
+  .suggestions li {
+    padding: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .suggestions li:hover {
+    background-color: #f0f0f0;
+  }
+  
+  .close-btn {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    font-size: 24px;
+    background: none;
+    border: none;
+    color: #555;
+    cursor: pointer;
+    transition: color 0.3s ease;
+  }
+  
+  .close-btn:hover {
+    color: #000;
+  }
+  

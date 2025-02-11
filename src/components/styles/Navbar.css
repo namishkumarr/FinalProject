@@ -1,0 +1,237 @@
+.navbar-background {
+  top:0;
+  z-index: 1;
+  position:fixed;
+  width: 100%; /* Full width of the screen */
+  background-color: #ffffff; /* Navbar background */
+   /* Vertical padding for spacing */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Optional shadow for styling */
+}
+
+.navbar-container {
+  
+  max-width: 1000px; /* Set the maximum width for the content */
+  margin: 0 auto; /* Center the content */
+  padding: 0px 0px; /* Add horizontal padding for responsiveness */
+  display: flex;
+  justify-content: space-between; /* Space out elements (logo, links, buttons) */
+  align-items: center; /* Align elements vertically */
+}
+
+.navbar-logo img {
+  width: 156px;
+  height:25px; /* Fixed logo size */
+}
+
+.navbar-links {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0px 15px;
+  align-items: center;
+}
+
+.navbar-links li {
+   margin:0;
+}
+
+.navbar-links a {
+  text-decoration: none;
+  transition: color 0.3s ease; /* Smooth hover effect */
+  
+}
+
+/* Set black text color for Features and About */
+.navbar-links a:nth-child(-n+2) {
+  color: black; /* Black text for Features and About */
+  font-size:16px;
+}
+
+/* Button 1: "Find Jobs" styling */
+.btn-primary1 {
+  margin:25px 15px;
+  background-color: #5851D3; /* Purple background */
+  color: white !important; /* White text */
+  border: 2px solid #5851D3; /* Border matches background */
+  padding: 10px 20px; /* Button padding */
+  border-radius: 25px; /* Rounded corners */
+  font-size: 13px !important; /* Adjust font size */
+  cursor: pointer; /* Pointer on hover */
+  transition: all 0.3s ease; /* Smooth hover effect */
+  font-weight: bold;
+  
+}
+
+.btn-primary1:hover {
+  background-color: #5851D3; /* Background turns white on hover */
+  color: white; /* Text turns purple */
+  filter:brightness(110%)
+}
+
+/* Button 2: "Hire Talent" styling */
+.btn-primary2 {
+  margin:25px 15px;
+  background-color: white; /* White background */
+  color: #5851D3 !important; /* Purple text */
+  border: 2px solid #5851D3; /* Purple border */
+  padding: 10px 20px; /* Button padding */
+  border-radius: 25px; /* Rounded corners */
+  font-size: 13px !important; /* Adjust font size */
+  cursor: pointer; /* Pointer on hover */
+  transition: all 0.3s ease; /* Smooth hover effect */
+  font-weight: bold;
+}
+
+.btn-primary2:hover {
+  background-color: white; /* Background turns purple on hover */
+  color:  #5851D3; /* Text turns white */
+  filter:brightness(95%)
+}
+
+.hover-box1{
+  padding:25px 15px;
+}
+
+.hover-box2{
+  padding:25px 15px;
+}
+
+.hover-box1:hover{
+  background-color: white;
+  filter:brightness(95%)
+}
+
+.hover-box2:hover{
+  background-color: white;
+  filter:brightness(95%)
+}
+
+/* Modal styles */
+.n-modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5); /* Blurred background */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  backdrop-filter: blur(5px); /* Adds a blur effect */
+  z-index: 2000;
+  
+}
+
+.n-modal-content {
+  width:450px;
+  background: white;
+  padding: 0px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+}
+
+.modal-content-1 {
+  background: white;
+  padding: 20px;
+  border-radius: 10px 10px 0px 0px;
+  text-align: center;
+  
+}
+
+.modal-content-2 {
+  background: #FAFAFA;
+  padding: 20px;
+  border-radius: 0px 0px 10px 10px;
+  text-align: left;
+  font-size: 13px;
+  
+}
+
+.modal-content-2 span{
+  color:#5851D3;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.modal-content-2 span:hover{
+  text-decoration: underline;
+}
+
+.modal-1-title{
+  font-size: 18px;
+}
+
+.modal-1-title span{
+  font-weight: bold;
+  
+}
+
+.modal-content h2 {
+  margin-bottom: 20px;
+}
+
+.t-c a{
+  color:#5851D3;
+  font-weight: bold;
+}
+
+.t-c{
+  display:flex;
+  font-size: 13px;
+  gap: 5px;
+  align-items: center;
+}
+
+.t-c input{
+  margin:0;
+  height:20px;
+  width:20px;
+  margin-right: 5px;
+}
+
+.n-close-btn {
+  padding: 10px 20px;
+  background-color: #5851d3;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.n-sign-in-btn {
+  padding: 10px 20px;
+  background-color: #5851d3;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.n-sign-in-btn:hover {
+  background-color: #473bc1;
+}
+
+.n-close-btn:hover {
+  background-color: #473bc1;
+}
+
+.gap{
+  height:20px;
+}
+
+.n-modal-buttons {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  
+}
+
+.modal-input {
+  width: 80%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+}

@@ -1,0 +1,113 @@
+.job-card {
+  flex: 3;
+  margin-left: 200px;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: white;
+  }
+  
+  .job-header {
+    font-size: 1.2rem;
+    font-weight: bold;
+    display: flex;
+    justify-content:space-between;
+    
+  }
+  .actions{
+    float:right !important;
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+  }
+  
+  .job-meta {
+    font-size: 0.9rem;
+    color: #6c757d;
+    gap:8px;
+    display:flex;
+    justify-content: left;
+  }
+  
+  .skills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+  
+  .skill {
+    background-color: #f3f2ff;
+    padding: 4px 12px;
+    border-radius: 16px;
+    font-size: 0.8rem;
+  }
+
+  .read-more-button{
+    color: #5851D3;
+    font-weight: bold;
+    font-size: 13px;
+    float:left;
+  }
+  
+  .job-logo{
+    height:70px;
+    width:70px;
+    border:1px solid #dce0e3;
+    border-radius: 5px;
+
+  }
+
+  .job-titles h3{
+    margin:0;
+    font-size: 18px;
+  }
+  .job-titles p{
+    margin:0;
+    color: #333333;
+    font-weight: normal;
+    font-size: 13px;
+  }
+  .job-titles{
+    display: flex;
+    flex-direction: column;
+    text-align: left !important;
+    width:78%;
+  }
+
+  .job-titles a{
+    color: #5851D3;
+    font-weight: bold;
+    font-size: 13px;
+    text-decoration: none;
+  }
+
+  .apply-btn {
+    
+    background-color: #5851D3; /* Purple background */
+    color: white !important; /* White text */
+    border: 2px solid #5851D3; /* Border matches background */
+    padding: 10px 20px; /* Button padding */
+    border-radius: 25px; /* Rounded corners */
+    font-size: 13px !important; /* Adjust font size */
+    cursor: pointer; /* Pointer on hover */
+    transition: all 0.3s ease; /* Smooth hover effect */
+    font-weight: bold;
+    
+  }
+  
+  .apply-btn:hover {
+    background-color: #5851D3; /* Background turns white on hover */
+    color: white; /* Text turns purple */
+    filter:brightness(110%)
+  }
+
+  .save-btn{
+    color:#5851D3;
+    font-size: 13px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+
+  .description-2{
+    display: flex;
+    justify-content: flex-start;
+     }

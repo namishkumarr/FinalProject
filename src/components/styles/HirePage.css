@@ -1,0 +1,72 @@
+.hire-container {
+  overflow: hidden;
+    text-align: center;
+    height: 100vh;
+    }
+  
+.top-nav-h {
+        position: fixed;
+        top: 0;
+        width: 100%;
+        background-color: white;
+        border-bottom: 1px solid #dce0e3;
+        z-index: 1000;
+        display: flex;
+        align-items: center;
+        padding:0px 20px;
+      }
+
+      .hire-talent {
+        font-size: 14px;
+        font-weight: bold;
+        left:0;
+        align-items: center;
+        display: flex;
+        }
+      
+      
+      .hire-talent span{
+        padding:14px 20px;
+        
+        
+      }
+      
+      .drop-down{
+        height:9px;
+        width:9px;
+        margin-left: 10px !important;
+      }
+
+      .content-h{
+        display: flex;
+        margin-top: 40px; /* Adjust for fixed top navigation */
+        height: calc(100vh - 40px);
+        overflow: hidden;
+        background-color: #EEEEEE;
+        
+      }
+
+      .main-content-h {
+        margin-left: 90px; /* Adjust for filter width */
+        flex: 1;
+        padding: 20px;
+        overflow-y: auto;
+      }
+
+      .length{
+        margin:20px 0px 20px 200px;
+        color: #333333;
+        font-size: 18px;
+        font-weight: normal;
+        text-align: left;
+      }
+
+      .talent-list {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        width:1200px;
+        
+      }
+
+  

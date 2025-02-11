@@ -1,0 +1,359 @@
+.test-drive-section {
+  
+    padding: 30px 30px;
+    background-color: #F5F7FF;
+  }
+
+  .tds-container {
+    max-width: 1000px; /* Set the maximum width for the content */
+    margin: 0 auto; /* Center the content */
+    padding: 70px 30px; /* Center the container horizontally */
+    justify-content:start; /* Space out elements (logo, links, button) */
+    align-items:flex-start; /* Align elements vertically */
+    background-color: #F5F7FF;
+    flex-direction: column;
+    padding:0px;
+  }
+  
+  .tds-title-container{
+    width:100%;
+    background-color: #F5F7FF !important;
+    padding:0px;
+    font-size: 2rem;
+  }
+  .tds-title-container h3{
+margin:0;
+  }
+  .tds-p-container{
+    width:100%;
+    background-color: #F5F7FF !important;
+    padding:0px;
+  }
+
+
+
+  .upload-section {
+    display: flex;
+    justify-content: space-between;
+    padding:20px;
+    gap: 50px;
+    height:400px;
+  }
+  
+  .upload-box{
+    width: 60%;
+    text-align: center;
+    background-color: #F5F7FF !important;
+    
+  }
+
+  .resume-preview {
+    height:81%;
+    width: 40%;
+    text-align: center;
+    border-radius:5px;
+    padding: 20px;
+    background-color: white !important;
+    align-items: center;
+    display:flex;
+  }
+
+
+  .resume-preview p{
+    color:#999999;
+    
+    flex:1;
+    font-size: 0.7em;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .upload-box-dotted{
+    border:2px dashed rgb(234,234,234) !important;
+    border-radius:5px;
+    height:60%;
+    align-items: center;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .blank-1{
+    height:10px;
+    background-color: #F5F7FF !important;
+    padding:0px 0px;
+    
+  }
+
+  .blank-2{
+    
+    background-color: white !important;
+    padding:0px 0px;
+    
+  }
+
+  .upload-box-p{
+    width:100%;
+    background-color: #F5F7FF;
+    padding:0px;
+    display: flex;
+    flex-direction: column;
+    text-align: left !important;
+  }
+
+  .upload-box-p p{
+    float:left;
+    padding:0px 5px;
+  }
+
+  .sample-container {
+    background-color: #F5F7FF;
+    height:15%;
+    display:flex;
+    flex-direction: row;
+    gap:20px;
+  }
+  
+  .sample-1, .sample-2 {
+    background-color: white !important;
+    padding:10px 0px;
+    width:50%;
+    border-radius:5px;
+    border-left: 2px solid #5851D3 !important;
+    display: flex;
+    gap:20px;
+    justify-content: space-evenly;
+  }
+  
+  .sample-1-a, .sample-2-a {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .sample-1-b,.sample-2-b{
+    background-color: white;
+    height:100%;
+    width:25px;
+    align-content: center;
+  }
+  
+ 
+  
+  .arrow-icon {
+    width: 20px; /* Adjust size */
+    height: 20px; /* Adjust size */
+    fill: #232326; /* Ensure consistent fill color */
+    transition: transform 0.3s ease;
+  }
+  
+  .sample-1:hover, .sample-2:hover{
+    cursor:pointer;
+    
+  }
+  
+
+  .upload-btn{
+    margin:0px 15px;
+  background-color: #5851D3; /* Purple background */
+  color: white !important; /* White text */
+  border: 1px solid #5851D3; /* Border matches background */
+  padding: 10px 20px; /* Button padding */
+  border-radius: 25px; /* Rounded corners */
+  font-size: 13px !important; /* Adjust font size */
+  cursor: pointer; /* Pointer on hover */
+  transition: all 0.3s ease; /* Smooth hover effect */
+  font-weight: bold !important;
+  }
+
+  .upload-btn:hover {
+    background-color: #5851D3; /* Background turns white on hover */
+    color: white; /* Text turns purple */
+    filter:brightness(110%)
+  }
+  
+  .upload-box-dotted p{
+    padding:0px;
+    color:#999999;
+    font-size: 0.7em;
+  }
+  
+
+  .sample-1-text-1{
+color:#5851D3;
+font-weight: bold !important;
+text-align: left;
+  }
+  .sample-1-text-2{
+    color:#999999;
+    text-align: left;
+  }
+  .sample-2-text-1{
+    color:#5851D3;
+    font-weight: bold !important;
+    text-align: left;
+  }
+  .sample-2-text-2{
+    color:#999999;
+    text-align: left;
+  }
+
+  .tds-modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(5px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+  
+  .tds-modal-content {
+    background: #fff;
+    padding: 20px; /* Add padding inside the modal */
+    border-radius: 16px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    max-height: 90vh;
+    overflow-y: auto; /* Enable scrolling within the modal */
+    position: relative;
+    width: 80%;
+    max-width: 700px;
+    box-sizing: border-box;
+  }
+  
+  /* Internal Scrollbar Styling */
+  .tds-modal-content::-webkit-scrollbar {
+    width: 8px; /* Narrow scrollbar */
+  }
+  
+  .tds-modal-content::-webkit-scrollbar-track {
+    background: #f9f9f9;
+    border-radius: 8px; /* Match the modal's rounded corners */
+    margin: 10px; /* Ensure the scrollbar stays inside the content */
+  }
+  
+  .tds-modal-content::-webkit-scrollbar-thumb {
+    background: #ccc;
+    border-radius: 8px;
+  }
+  
+  /* Close Button */
+  .tds-close-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 20px;
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .resume-image {
+    width: 100%;
+    height: auto;
+    max-width: 210mm; /* 210mm width */
+    max-height: 297mm; /* 297mm height */
+    display: block;
+    margin: 0 auto;
+  }
+
+  .view-text{
+    font-weight: bold;
+    font-size: 13px;
+    color:#5851D3;
+    height:10%;
+    align-content: center;
+    cursor: pointer;
+    text-decoration: none;
+  }
+
+  .resume-preview-ready{
+    display: flex;
+    flex-direction: column;
+    width:100%;
+    height:100%;
+    gap:10px;
+  }
+
+  .pdf-title{
+    display: flex;
+    flex-direction: column;
+    height:15%;
+  }
+
+  .title-bold{
+    font-weight: bold;
+  }
+
+  .pdf-rating{
+    height:75%;
+    align-content: center;
+  }
+
+  /* Circle wrapper */ .tds-circle-container 
+{ position: relative; 
+  width: 240px; /* Smaller circle */ 
+  height: 240px; /* Smaller circle */ 
+  display: flex; 
+  align-items: center; 
+  justify-content: center; 
+  margin: 0 auto; 
+}
+
+ /* Background ring */ 
+ .tds-circle-background { 
+  position: absolute; 
+  width: 100%; 
+  height: 100%; 
+  border-radius: 50%; 
+  
+  transform: rotate(-90deg); /* Rotate to make start point at top */ 
+  
+} 
+
+/* Circle indicator for the score (ring) */ 
+.tds-circle-progress-1 { 
+  position: absolute; 
+  width: 100%; 
+  height: 100%; 
+  border-radius: 50%; 
+  border: 5px solid transparent; /* Make inner circle transparent */ 
+  
+  transform: rotate(-90deg); 
+} 
+
+.tds-circle-progress-2 { 
+  position: absolute; 
+  width: 85%; 
+  height: 85%;
+  border-radius: 50%; 
+  border: 5px solid white; /* Light gray ring border */ 
+  background: white;
+  transform: rotate(-90deg); 
+} 
+
+/* Circle text (score in the center) */ 
+.tds-circle-text { 
+  position: absolute; 
+  font-size: 48px; /* Smaller font size */ 
+  font-weight: bold; 
+  color: black; 
+}
+
+.resume-pdf {
+  width: 100%;
+  height: 297mm;
+  max-width: 210mm; /* 210mm width */
+  max-height: 297mm; /* 297mm height */
+  display: block;
+  margin: 0 auto;
+}
+
+.view-text-div{
+  display: flex;
+  
+  justify-content: space-evenly;
+}

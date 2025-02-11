@@ -1,0 +1,14 @@
+.container {
+    width: 100%;
+     /* Maximum width for large screens */
+    margin: 0 auto; /* Center horizontally */
+    padding: 0 20px; /* Consistent padding on both sides */
+    box-sizing: border-box; /* Include padding in the element's total width */
+  }
+  
+
+  .HomeApp {
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    
+  }

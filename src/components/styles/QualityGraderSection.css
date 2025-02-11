@@ -1,0 +1,105 @@
+.quality-grader-section {
+  
+  background-color: #222222; /* Optional: Light background color */
+  align-items: center !important;
+  display: flex;
+  flex-direction: column;
+}
+
+.container2{
+  float:inherit;
+  align-self: center;
+  max-width: 1200px; /* Limit the container width */
+   /* Center the container */
+  text-align: center; /* Center-align the title text */
+}
+
+.container {
+  padding: 0px 80px !important;
+  max-width: 1200px; /* Limit the container width */
+   /* Center the container */
+  text-align: center; /* Center-align the title text */
+  
+}
+
+.title-container{
+  max-width:1200px;
+  margin-top: 0px;
+  padding:0px;
+  display: block;
+  
+  
+}
+
+.title-container h2 {
+  
+  font-size: 2.5rem; /* Adjust font size */
+  margin-bottom: 0px; /* Add spacing below the title */
+  color: white;
+  align-items: center !important;
+}
+
+.title-container h2 span {
+  color: #FFDE80; /* Highlight specific text */
+  font-weight: bold;
+}
+
+.quality-cards {
+  
+  align-items: center;
+  display: flex !important; /* Use flexbox to arrange the cards */
+  flex-direction: row;
+  justify-content: space-between; /* Space cards evenly */
+  gap: 30px; /* Add space between cards */
+  flex-wrap: nowrap; /* Allow wrapping for smaller screens */
+  
+}
+
+.card {
+  background-color: #222222; /* Card background color */
+  margin-top:110px;
+  padding: 0px 0px 0px;
+   /* Inner padding */
+  flex: 1 1 calc(50% - 50px); /* Flexibly occupy 50% width minus gaps */
+  max-width: 500px; /* Limit card width */
+   /* Include padding in width/height calculations */
+}
+
+.card h3 {
+  
+  font-size: 1.5rem; /* Card title font size */
+  margin-bottom: 0px; /* Spacing below title */
+  color: white;
+  margin-top:60px;
+  margin-bottom:30px;
+}
+
+.card p {
+  padding: 0px 0px;
+  font-size: 1rem; /* Adjust text size */
+  line-height: 1.6; /* Improve readability */
+  color: #ffffff; /* Muted text color */
+  margin-bottom: 4px;
+  padding-bottom: 30px;
+}
+
+.card2 {
+  background-color: #222222; /* Card background color */
+    padding: 45px 0px 16px 0px; /* Inner padding */
+  flex: 1 1 calc(50% - 50px); /* Flexibly occupy 50% width minus gaps */
+  max-width: 500px; /* Limit card width */
+   /* Include padding in width/height calculations */
+}
+
+.card2 h3 {
+  font-size: 1.5rem; /* Card title font size */
+  margin-top: 63px;
+  color: white; /* Spacing below title */
+}
+
+.card2 p {
+  font-size: 1rem; /* Adjust text size */
+  line-height: 1.6; /* Improve readability */
+  color: white; /* Muted text color */
+  padding-bottom: 0px;
+}

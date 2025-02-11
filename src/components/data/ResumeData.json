@@ -1,0 +1,65 @@
+[
+    {
+        "image": "https://randomuser.me/api/portraits/men/1.jpg",
+        "name": "John Doe",
+        "state": "California",
+        "country": "USA",
+        "resume_score": 20,
+        "resume_link": "https://preview.redd.it/ec7b19j2deu91.jpg?width=791&format=pjpg&auto=webp&s=6e0e12b48bc1042be570397102d4250a1d03f313",
+        "email": "john.doe123@gmail.com"
+    },
+    {
+        "image": "https://randomuser.me/api/portraits/women/2.jpg",
+        "name": "Jane Amanda",
+        "state": "Texas",
+        "country": "USA",
+        "resume_score": 50,
+        "resume_link": "https://content.wepik.com/statics/11175895/preview-page0.jpg",
+        "email": "jane.amanda99@gmail.com"
+    },
+    {
+        "image": "https://randomuser.me/api/portraits/men/3.jpg",
+        "name": "Peter Wilson",
+        "state": "Ontario",
+        "country": "Canada",
+        "resume_score": 78,
+        "resume_link": "https://content.wepik.com/statics/694466293/preview-page0.jpg",
+        "email": "pete.wilson@gmail.com"
+    },
+    {
+        "image": "https://randomuser.me/api/portraits/women/4.jpg",
+        "name": "Karen Jones",
+        "state": "Queensland",
+        "country": "Australia",
+        "resume_score": 100,
+        "resume_link": "https://content.wepik.com/statics/198936744/preview-page0.jpg",
+        "email": "jones.karen1@gmail.com"
+    },
+    {
+        "image": "https://randomuser.me/api/portraits/men/5.jpg",
+        "name": "Albert Michales",
+        "state": "Jalisco",
+        "country": "Mexico",
+        "resume_score": 40,
+        "resume_link": "https://content.wepik.com/statics/194472962/preview-page0.jpg",
+        "email": "albert.m69@gmail.com"
+    },
+    {
+        "name": "Namish Kumar",
+        "email": "namish3535@gmail.com",
+        "resume_score": 62,
+        "image": "/data/avatar.png",
+        "state": "Karnataka",
+        "country": "India",
+        "resume_link": "C:/Users/namis/cutshort-ui/backend/App/Uploaded_Resumes/36ebc42b-8f1f-434a-bf69-7b6950656f18_NewResume.pdf"
+    },
+    {
+        "name": "Namish Kumar",
+        "email": "namish3535@gmail.com",
+        "resume_score": 62,
+        "image": "/data/avatar.png",
+        "state": "Karnataka",
+        "country": "India",
+        "resume_link": "C:/Users/namis/cutshort-ui/backend/App/Uploaded_Resumes/e9e756d6-37b4-48b0-a1c1-478c19644965_NamishResume.pdf"
+    }
+]

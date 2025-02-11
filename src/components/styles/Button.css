@@ -1,0 +1,49 @@
+/* General button styles */
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+    text-transform: uppercase;
+    color: #ffffff;
+    background-color: #5a3ff6; /* Primary purple color */
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0px 4px 10px rgba(90, 63, 246, 0.4); /* Subtle shadow */
+  }
+  
+  /* Hover state */
+  .button:hover {
+    background-color: #4e36d9; /* Slightly darker purple */
+    transform: translateY(-3px); /* Lift effect */
+  }
+  
+  /* Active state */
+  .button:active {
+    background-color: #3b29ad; /* Darker purple on click */
+    transform: translateY(0px); /* Reset lift */
+    box-shadow: 0px 3px 8px rgba(90, 63, 246, 0.3);
+  }
+  
+  /* Disabled state */
+  .button:disabled {
+    background-color: #cccccc; /* Gray for disabled state */
+    color: #666666;
+    cursor: not-allowed;
+    box-shadow: none;
+  }
+  
+  /* Secondary button (optional) */
+  .button-secondary {
+    background-color: #f3f4f6; /* Light gray background */
+    color: #5a3ff6;           /* Purple text */
+    border: 1px solid #5a3ff6;
+  }
+  
+  .button-secondary:hover {
+    background-color: #e2e6f0; /* Slightly darker gray */
+  }
+  
